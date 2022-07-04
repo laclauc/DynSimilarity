@@ -1,13 +1,13 @@
-      Understanding the Benefits of Forgetting when Learning on Dynamic Graphs
+      # Understanding the Benefits of Forgetting when Learning on Dynamic Graphs
                  =============================================
 		 
-PREAMBLE
+## PREAMBLE
 ============================
 
 This work was published at ECML-PKKD 2022. It was funded by the IMPULSION 
 program as part of the IDEX from Université De Lyon (UDL) 
 
-ABOUT
+## ABOUT
 ============================
 
 This repository contains source code to learn node embeddings for dynamic 
@@ -30,7 +30,7 @@ If you use this repository, please cite:
 INSTALLATION
 
 
-DOWNLOADING MISSING DATASETS
+## DOWNLOADING MISSING DATASETS
 ============================
 
 Due to its size, we could not include the dataset Subreddit inside this
@@ -47,12 +47,11 @@ https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
 Then, extract the zip file and move the file "wiki.en.bin" inside the datasets/
 directory of this folder.
 
-
-AUTHOR
+## AUTHOR
 
 	The code was written  by  Julien  Tissier  <30314448+tca19@users.noreply.github.com>.
 
-COPYRIGHT
+## COPYRIGHT
 
 	This software is licensed under the GNU GPLv3 license.  See the  LICENSE
 	file for more details.
