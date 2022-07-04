@@ -1,12 +1,14 @@
       Understanding the Benefits of Forgetting when Learning on Dynamic Graphs
                  =============================================
-
+		 
 PREAMBLE
+============================
 
 This work was published at ECML-PKKD 2022. It was funded by the IMPULSION 
 program as part of the IDEX from Université De Lyon (UDL) 
 
 ABOUT
+============================
 
 This repository contains source code to learn node embeddings for dynamic 
 networks.  It  also  contains  some  scripts  to evaluate the performances of the 
@@ -28,8 +30,22 @@ If you use this repository, please cite:
 INSTALLATION
 
 
-USAGE
+DOWNLOADING MISSING DATASETS
+============================
 
+Due to its size, we could not include the dataset Subreddit inside this
+supplementary (however, all the other datasets are provided in this folder).
+To download it, run the following command inside the same folder as this README:
+
+wget https://snap.stanford.edu/data/soc-redditHyperlinks-body.tsv -P datasets/
+
+To evaluate on the node classification task, you will also need FastText
+pretrained word vectors. You can download them at the following URL:
+
+https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
+
+Then, extract the zip file and move the file "wiki.en.bin" inside the datasets/
+directory of this folder.
 
 
 AUTHOR
