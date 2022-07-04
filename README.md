@@ -1,14 +1,12 @@
-      # Understanding the Benefits of Forgetting when Learning on Dynamic Graphs
-                 =============================================
+# Understanding the Benefits of Forgetting when Learning on Dynamic Graphs
+
 		 
 ## PREAMBLE
-============================
 
 This work was published at ECML-PKKD 2022. It was funded by the IMPULSION 
 program as part of the IDEX from Université De Lyon (UDL) 
 
 ## ABOUT
-============================
 
 This repository contains source code to learn node embeddings for dynamic 
 networks.  It  also  contains  some  scripts  to evaluate the performances of the 
@@ -27,11 +25,24 @@ If you use this repository, please cite:
 	  year      = {2022},
 	}
 
-INSTALLATION
+## INSTALLATION
+
+To be able to run the experiments, you will need:
+    - Python 3.8
+
+This code works only with Python 3.8 (and not with later version) because one
+of the Python library we use does not support Python 3.9+.
+To install Python3.8 on you machine, you can use the following link:
+    https://www.python.org/downloads/release/python-387/
+
+Then, install the dependencies with the following commands:
+
+    1) python3.8 -m venv ~/Dynamic-env
+    2) source ~/Dynamic-env/bin/activate
+    3) python3.8 -m pip install -r requirements.txt
 
 
 ## DOWNLOADING MISSING DATASETS
-============================
 
 Due to its size, we could not include the dataset Subreddit inside this
 supplementary (however, all the other datasets are provided in this folder).
